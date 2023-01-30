@@ -1,0 +1,10 @@
+var math = 80;
+var biology = 67;
+var physics = 78;
+var chemistry = 99;
+var bangla = 88;
+var totalSubs = 5;
+var totalMarks = math + biology + bangla + chemistry + physics;
+var averageMarks = totalMarks / totalSubs;
+averageMarks = averageMarks.toFixed(2);
+console.log(averageMarks);
